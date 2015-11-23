@@ -1,0 +1,30 @@
+NonTerminal     First                                   Follow
+     P          int void                                $ 
+     L          int void                                $ int void 
+     D          int void                                $ int void 
+     Vd         int void                                $ int void } id ( num ; { if while return else 
+     Ts         int void                                id main 
+     Fn         int void                                $ int void 
+     Ps         int void void                           ) 
+     Pl         int void                                ) , 
+     Pa         int void                                ) , 
+     Cs         {                                       $ int void } id ( num ; { if while return else 
+     Ld         empty int void                          $ int void } id ( num ; { if while return else 
+     Sl         empty id ( num ; { if while return      } id ( num ; { if while return 
+     S          id ( num ; { if while return            } id ( num ; { if while return else 
+     Es         id ( num ;                              } id ( num ; { if while return else 
+     Ss         if if                                   } id ( num ; { if while return else 
+     Is         while                                   } id ( num ; { if while return else 
+     Rs         return return                           } id ( num ; { if while return else 
+     E          id ( num                                ; ) ] , 
+     V          id id                                   = <= < > >= == != ; ) ] , + - * / 
+     Se         ( id num                                ; ) ] , 
+     R          <= < > >= == !=                         ( id num 
+     Ae         ( id num                                <= < > >= == != ; ) ] , + - 
+     A          + -                                     ( id num 
+     T          ( id num                                <= < > >= == != ; ) ] , + - * / 
+     M          * /                                     ( id num 
+     F          ( id num                                <= < > >= == != ; ) ] , + - * / 
+     C          id                                      <= < > >= == != ; ) ] , + - * / 
+     Ar         id ( num empty                          ) 
+     Al         id ( num                                ) , 
